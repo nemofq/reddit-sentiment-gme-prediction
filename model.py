@@ -6,7 +6,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import LogisticRegression  
 
 # Define stable variables  
-data_file = ''  # Data file name  
+data_file = 'model_data.csv'  # Data file name  
 specified_dates = [  
     '2021-01-04', '2021-01-05', '2021-01-06', '2021-01-07', '2021-01-08',  
     '2021-01-11', '2021-01-12', '2021-01-13', '2021-01-14', '2021-01-15',  
